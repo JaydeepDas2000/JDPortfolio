@@ -83,11 +83,11 @@
             
             <!-- Yes / No Buttons -->
             <div class="w-full flex flex-col sm:flex-row gap-4 justify-center items-center min-h-[120px] relative">
-                <button onclick="goToStep(3)" class="w-full sm:w-auto px-10 py-4 bg-pink-500 hover:bg-pink-600 text-white font-bold rounded-2xl shadow-lg shadow-pink-200 transition duration-300 transform hover:scale-105">
+                <button onclick="goToStep(3)" class="w-full sm:w-auto px-10 py-4 bg-pink-500 hover:bg-pink-600 text-white font-bold rounded-2xl shadow-lg shadow-pink-200 transition duration-300 transform hover:scale-105 z-10">
                     Yes, absolutely! 💖
                 </button>
-                <!-- Runaway Button -->
-                <button id="runaway-btn" class="w-full sm:w-auto px-10 py-4 bg-gray-100 text-gray-500 font-bold rounded-2xl transition-all duration-200 absolute sm:static" style="left: auto; top: auto;">
+                <!-- Runaway Button (Cleaned up positioning classes for seamless responsive layout) -->
+                <button id="runaway-btn" class="w-full sm:w-auto px-10 py-4 bg-gray-100 text-gray-500 font-bold rounded-2xl transition-all duration-200 relative">
                     No 😢
                 </button>
             </div>
