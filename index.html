@@ -216,20 +216,6 @@
         </div>
     </div>
 
-    <!-- Instructions for the Creator (Only visible to you, absolutely hidden when you deploy) -->
-    <div id="creator-guide" class="fixed bottom-4 right-4 max-w-sm bg-white border border-yellow-200 p-4 rounded-xl shadow-xl text-xs z-50 transition-opacity hover:opacity-20">
-        <div class="flex justify-between items-center mb-2">
-            <strong class="text-yellow-700"><i class="fa-solid fa-circle-info mr-1"></i> Setup Security Note:</strong>
-            <button onclick="document.getElementById('creator-guide').style.display='none'" class="text-gray-400 hover:text-gray-600 font-bold">✕</button>
-        </div>
-        <p class="text-gray-600 mb-2">To receive notifications anonymously in your email:</p>
-        <ol class="list-decimal pl-4 text-gray-600 space-y-1">
-            <li>Go to <a href="https://web3forms.com" target="_blank" class="text-blue-500 underline font-bold">web3forms.com</a> (Free)</li>
-            <li>Submit your email to get a key.</li>
-            <li>Change the value of <code class="bg-gray-100 px-1 py-0.5 font-mono">access_key</code> in line 147 of this file.</li>
-        </ol>
-    </div>
-
     <script>
         // Form selections state
         const choices = {
