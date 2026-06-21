@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Date? ❤️</title>
+    <style>
+        :root {
+            --primary-pink: #ff6b81;
+            --soft-pink: #ffeef0;
+            --dark-pink: #ff4757;
+            --text-color: #4a4a4a;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #ffeef0 0%, #fff0f5 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            color: var(--text-color);
+        }
+
+        .container {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(255, 107, 129, 0.15);
+            width: 100%;
+            max-width: 500px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .heart-bg {
+            font-size: 5rem;
+            color: var(--primary-pink);
+            margin-bottom: 20px;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        h1 {
+            color: var(--dark-pink);
+            margin-bottom: 25px;
+            font-size: 1.8rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        /* Step Management */
+        .step {
+            display: none;
+            animation: fadeIn 0.5s ease;
+        }
+
+        .step.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Buttons */
+        .btn-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 12px 28px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn-yes {
+            background-color: var(--primary-pink);
+            color: white;
+            box-shadow: 0 5px 15px rgba(255, 107, 129, 0.3);
+        }
+
+        .btn-yes:hover {
+            background-color: var(--dark-pink);
+            transform: translateY(-2px);
+        }
+
+        .btn-no {
+            background-color: #f1f2f6;
+            color: #57606f;
+        }
+
+        /* Form Inputs */
+        input[type="date"], input[type="time"] {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0 20px 0;
+            border: 2px solid #f1f2f6;
+            border-radius: 10px;
+            font-size: 1rem;
+            color: var(--text-color);
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        input:focus {
+            border-color: var(--primary-pink);
+        }
+
+        /* Grid Options */
+        .grid-options {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .option-card {
+            border: 2px solid #f1f2f6;
+            padding: 15px;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .option-card:hover {
+            border-color: var(--primary-pink);
+            background-color: var(--soft-pink);
+        }
+
+        .option-card.selected {
+            border-color: var(--dark-pink);
+            background-color: var(--primary-pink);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="step active" id="step1">
+            <div class="heart-bg">❤️</div>
+            <h1>Hey Beautiful, I have a question...</h1>
+            <p>Will you do me the absolute honor of going out on a date with me?</p>
+            <div class="btn-container">
+                <button class="btn-yes" onclick="nextStep(2)">Yes! 💖</button>
+                <button class="btn-no" id="noBtn" onmouseover="moveNoButton()">No</button>
+            </div>
+        </div>
+
+        <div class="step" id="step2">
+            <h1>Yay! 🥰 When are you free?</h1>
+            <p>Pick a date and time that works perfectly for you:</p>
+            <label for="date">Choose Date:</label>
+            <input type="date" id="date" required>
+            
+            <label for="time">Choose Time:</label>
+            <input type="time" id="time" required>
+            
+            <div class="btn-container">
+                <button class="btn-yes" onclick="validateStep2()">Next ✨</button>
+            </div>
+        </div>
+
+        <div class="step" id="step3">
+            <h1>What would you like to do? 💃</h1>
+            <p>Select as many activities as you'd like:</p>
+            <div class="grid-options">
+                <div class="option-card" onclick="toggleSelection(this, 'activity')">Dinner 🍽️</div>
+                <div class="option-card" onclick="toggleSelection(this, 'activity')">Movie 🍿</div>
+                <div class="option-card" onclick="toggleSelection(this, 'activity')">Shopping 🛍️</div>
+                <div class="option-card" onclick="toggleSelection(this, 'activity')">Coffee Date ☕</div>
+                <div class="option-card" onclick="toggleSelection(this, 'activity')">Long Drive 🚗</div>
+                <div class="option-card" onclick="toggleSelection(this, 'activity')">Walk in Park 🌳</div>
+            </div>
+            <div class="btn-container">
+                <button class="btn-yes" onclick="nextStep(4)">Next ✨</button>
+            </div>
+        </div>
+
+        <div class="step" id="step4">
+            <h1>What are we craving? 🍕</h1>
+            <p>What kind of food or vibe do you want?</p>
+            <div class="grid-options">
+                <div class="option-card" onclick="toggleSelection(this, 'food')">Italian 🍝</div>
+                <div class="option-card" onclick="toggleSelection(this, 'food')">Sushi/Asian 🥢</div>
+                <div class="option-card" onclick="toggleSelection(this, 'food')">Fast Food 🍔</div>
+                <div class="option-card" onclick="toggleSelection(this, 'food')">Dessert Place 🍦</div>
+                <div class="option-card" onclick="toggleSelection(this, 'food')">Fine Dining ✨</div>
+                <div class="option-card" onclick="toggleSelection(this, 'food')">Street Food 🍟</div>
+            </div>
+            <div class="btn-container">
+                <button class="btn-yes" onclick="sendResponse()">Send My Answers! 💌</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Enter YOUR WhatsApp Number here (Include country code, but omit '+' or '00')
+        // Example: 1234567890 if you are in the US.
+        const YOUR_PHONE_NUMBER = "YOUR_PHONE_NUMBER_HERE"; 
+
+        let selections = {
+            date: '',
+            time: '',
+            activities: [],
+            food: []
+        };
+
+        function nextStep(stepNumber) {
+            // Hide all steps
+            document.querySelectorAll('.step').forEach(step => {
+                step.classList.remove('active');
+            });
+            // Show current step
+            document.getElementById('step' + stepNumber).classList.add('active');
+        }
+
+        // Trick "No" Button functionality (It moves away when hovered!)
+        function moveNoButton() {
+            const noBtn = document.getElementById('noBtn');
+            const x = Math.random() * (window.innerWidth - noBtn.offsetWidth - 50);
+            const y = Math.random() * (window.innerHeight - noBtn.offsetHeight - 50);
+            
+            noBtn.style.position = 'absolute';
+            noBtn.style.left = x + 'px';
+            noBtn.style.top = y + 'px';
+        }
+
+        function validateStep2() {
+            const dateVal = document.getElementById('date').value;
+            const timeVal = document.getElementById('time').value;
+
+            if(!dateVal || !timeVal) {
+                alert("Please pick a romantic date and time! 🥰");
+                return;
+            }
+            selections.date = dateVal;
+            selections.time = timeVal;
+            nextStep(3);
+        }
+
+        function toggleSelection(element, type) {
+            element.classList.toggle('selected');
+            const itemText = element.innerText;
+
+            if (type === 'activity') {
+                if (selections.activities.includes(itemText)) {
+                    selections.activities = selections.activities.filter(i => i !== itemText);
+                } else {
+                    selections.activities.push(itemText);
+                }
+            } else if (type === 'food') {
+                if (selections.food.includes(itemText)) {
+                    selections.food = selections.food.filter(i => i !== itemText);
+                } else {
+                    selections.food.push(itemText);
+                }
+            }
+        }
+
+        function sendResponse() {
+            // Format the message nicely for WhatsApp
+            const message = `❤️ *YES! I want to go on a date with you!* ❤️\n\n` +
+                            `📅 *Date:* ${selections.date}\n` +
+                            `⏰ *Time:* ${selections.time}\n` +
+                            `🎉 *Activities:* ${selections.activities.join(', ') || 'Surprise Me!'}\n` +
+                            `🍔 *Food Craving:* ${selections.food.join(', ') || 'Surprise Me!'}`;
+
+            // Encode message for URL
+            const encodedMessage = encodeURIComponent(message);
+            
+            // Create WhatsApp Link
+            const whatsappURL = `https://wa.me/${YOUR_PHONE_NUMBER}?text=${encodedMessage}`;
+            
+            // Redirect her to WhatsApp
+            window.location.href = whatsappURL;
+        }
+    </script>
+</body>
+</html>
