@@ -1,6 +1,7 @@
 import React from "react";
 import { theme } from "../theme";
 import Eyebrow from "./Eyebrow";
+import { asset } from "../lib/asset";
 
 export default function Partners({ partners }) {
   return (
@@ -11,7 +12,7 @@ export default function Partners({ partners }) {
           {partners.logos.map((logo, i) => (
             <img
               key={i}
-              src={logo.image}
+              src={asset(logo.image)}
               alt={logo.alt || `Partner ${i + 1}`}
               className="partner-logo"
               onError={(e) => {

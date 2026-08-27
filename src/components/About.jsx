@@ -1,6 +1,7 @@
 import React from "react";
 import { theme } from "../theme";
 import Eyebrow from "./Eyebrow";
+import { asset } from "../lib/asset";
 
 export default function About({ about }) {
   return (
@@ -80,7 +81,7 @@ export default function About({ about }) {
                   }}
                 >
                   <img
-                    src={b.image}
+                    src={asset(b.image)}
                     alt={b.name}
                     onError={(e) => {
                       e.currentTarget.style.display = "none";
@@ -125,7 +126,7 @@ export default function About({ about }) {
             }}
           >
             <img
-              src={about.portrait}
+              src={asset(about.portrait)}
               alt="Portrait"
               className="portrait-img"
               style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}

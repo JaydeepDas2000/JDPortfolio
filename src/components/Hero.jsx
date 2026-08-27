@@ -1,6 +1,7 @@
 import React from "react";
 import { theme } from "../theme";
 import Eyebrow from "./Eyebrow";
+import { asset } from "../lib/asset";
 
 export default function Hero({ hero }) {
   return (
@@ -10,7 +11,7 @@ export default function Hero({ hero }) {
         {hero.image && (
           <div className="order-last">
             <img
-              src={hero.image}
+              src={asset(hero.image)}
               alt={hero.imageAlt || "Portrait"}
               style={{
                 width: "100%",
