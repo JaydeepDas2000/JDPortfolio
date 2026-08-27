@@ -1,0 +1,318 @@
+{
+  "nav": {
+    "logo": "JD",
+    "links": [
+      { "label": "Work", "href": "#work" },
+      { "label": "Experience", "href": "#experience" },
+      { "label": "Skills", "href": "#skills" },
+      { "label": "About", "href": "#about" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "cta": { "label": "LET'S TALK", "href": "#contact" }
+  },
+
+  "hero": {
+    "eyebrow": "Senior UX/UI Designer — Bangalore, India",
+    "image": "/images/Frame 2147239044.png",
+    "imageAlt": "Jaydeep Das",
+    "nameLines": ["JAYDEEP", "DAS"],
+    "descriptionParts": [
+      { "text": "Google & Accenture Certified UX Designer with 5+ years of experience" },
+      { "text": " crafting user-centered digital experiences", "accent": true },
+      { "text": " across education, healthcare, telecom, and enterprise products." }
+    ],
+    "scrollLabel": "SCROLL"
+  },
+
+  "skillTicker": [
+    "DESIGN SYSTEMS",
+    "FIGMA",
+    "VISUAL & UI DESIGN",
+    "ACCESSIBILITY (WCAG)",
+    "WIREFRAMING & PROTOTYPING",
+    "JOURNEY MAPPING",
+    "DESIGN QA",
+    "CROSS-FUNCTIONAL COLLABORATION"
+  ],
+
+  "work": {
+    "eyebrow": "Portfolio Projects",
+    "title": "Case studies on Behance",
+    "note": "Six case studies spanning fintech, e-commerce, wellness and EdTech. Full breakdowns and screens live on Behance.",
+    "projects": [
+      {
+        "index": "01",
+        "title": "NIKE Shoes",
+        "category": "E-commerce · Interaction Flow",
+        "year": "Behance",
+        "focus": [
+          "Interaction-flow case study for a shoe e-commerce experience",
+          "Focused on navigation clarity and visual hierarchy across product discovery",
+          "Designed engaging micro-interaction patterns to guide users through key decision points"
+        ],
+        "tools": ["Figma", "Prototyping", "Interaction Design"],
+        "link": "https://www.behance.net/gallery/243692631/NIKE-Shoes-Use-Cases",
+        "image": "https://mir-s3-cdn-cf.behance.net/projects/404/bcfe0d243692631.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png"
+      },
+      {
+        "index": "02",
+        "title": "BundleBee",
+        "category": "Product Bundling Platform · UX/UI",
+        "year": "Behance",
+        "focus": [
+          "End-to-end UX/UI for a product-bundling platform",
+          "Simplified complex bundling decisions through clear information architecture",
+          "Structured flows to reduce cognitive load when comparing bundle options"
+        ],
+        "tools": ["Figma", "Information Architecture", "UI Design"],
+        "link": "https://www.behance.net/gallery/238285247/BundleBee",
+        "image": "https://mir-s3-cdn-cf.behance.net/projects/404/db3079238285247.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png"
+      },
+      {
+        "index": "03",
+        "title": "MindEase",
+        "category": "Mind & Fitness App · UX/UI",
+        "year": "Behance",
+        "focus": [
+          "UX/UI case study for a mind-and-fitness wellness app",
+          "Calm, distraction-free visual design to support mindfulness routines",
+          "Structured onboarding and tracking flows for daily fitness and mental-wellness habits"
+        ],
+        "tools": ["Figma", "UI Design", "Wireframing"],
+        "link": "https://www.behance.net/gallery/237264355/MindEase-Mind-and-Fitness-App",
+        "image": "https://mir-s3-cdn-cf.behance.net/projects/404/2af0ee237264355.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png"
+      },
+      {
+        "index": "04",
+        "title": "Stock Broker App",
+        "category": "Fintech · Case Study",
+        "year": "Behance",
+        "focus": [
+          "Case study for a stock-trading and investment app",
+          "Simplified dense financial data into clear, scannable views",
+          "Designed trade-flow interactions balancing speed with clarity for time-sensitive decisions"
+        ],
+        "tools": ["Figma", "Information Architecture", "UI Design"],
+        "link": "https://www.behance.net/gallery/235959837/Stock-Broker-App-Case-Study",
+        "image": "https://mir-s3-cdn-cf.behance.net/projects/404/487330235959837.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png"
+      },
+      {
+        "index": "05",
+        "title": "SkillSage",
+        "category": "EdTech · Learning Platform",
+        "year": "Behance",
+        "focus": [
+          "UX/UI case study for a skill-learning and upskilling platform",
+          "Structured course discovery and progress tracking for learners",
+          "Applied clear information architecture to guide users toward relevant skill paths"
+        ],
+        "tools": ["Figma", "Information Architecture", "Prototyping"],
+        "link": "https://www.behance.net/gallery/182360303/SkillSage",
+        "image": "https://mir-s3-cdn-cf.behance.net/projects/404/ed2a0f182360303.Y3JvcCw1NTIzLDQzMjAsMTA4MCww.png"
+      },
+      {
+        "index": "06",
+        "title": "Movie Booking App",
+        "category": "Ticketing · Booking Flow",
+        "year": "Behance",
+        "focus": [
+          "Fast-path booking case study for a cinema ticketing app",
+          "Optimized seat-selection flow to cut steps and confusion",
+          "Focused on reducing drop-off across the booking funnel"
+        ],
+        "tools": ["Figma", "Wireframing", "Usability Testing"],
+        "link": "https://www.behance.net/gallery/175437619/Movie-Booking-App",
+        "image": "https://mir-s3-cdn-cf.behance.net/projects/404/72cf64175437619.Y3JvcCwxMzgwLDEwODAsMzUyLDA.png"
+      }
+    ]
+  },
+
+  "experience": {
+    "eyebrow": "Career Timeline",
+    "title": "Where I've delivered",
+    "note": "Five-plus years across product design and — before that — backend and full-stack engineering, which now shapes how I hand off design work.",
+    "roles": [
+      {
+        "index": "01",
+        "company": "Miles Education",
+        "role": "Senior User Experience Designer",
+        "dates": "March 2026 – Present",
+        "bullets": [
+          "Dedicated to bridging the gap between business strategy and user-centric design, ensuring every product decision is rooted in both user needs and business objectives.",
+          "Maintain a high-touch partnership with developers, delivering robust design architecture and optimized assets that streamline the development lifecycle.",
+          "Monitor user behaviour and execute integrated social network campaigns to consistently enhance brand presence while ensuring designs are technically viable and performance-driven.",
+          "Directly contributed to and managed four major products: Miles Website, Miles One App (Google Play Store & Apple App Store), MOJO Campus Website (PG/rental platform for students), and the Miles One LMS.",
+          "Oversee end-to-end developer collaboration across all four products, leading pre and post-development testing on LIVE environments to ensure quality and design fidelity."
+        ]
+      },
+      {
+        "index": "02",
+        "company": "Novartis",
+        "role": "UX Designer & eLearning Experience Developer",
+        "dates": "June 2024 – November 2025",
+        "bullets": [
+          "Represented the company at a Microsoft Copilot Studio hackathon in Zurich, Switzerland, demonstrating advanced expertise and innovative problem solving in AI driven solutions.",
+          "Pioneered and developed a custom GrapesJS ecosystem, providing a robust, no code platform for users to create and edit webpages through intuitive drag and drop functionality, similar to Wix.",
+          "Conducted in-depth discussions with project stakeholders and clients to meticulously gather and clarify requirements, while proactively offering strategic recommendations for enhanced user experience (UX) and interface (UI) design, directly contributing to high user engagement.",
+          "Led the development and deployment of over 20 SharePoint sites, enhancing collaboration and information accessibility across the organization.",
+          "Implemented and integrated 10+ Copilot agent solutions, significantly extending capabilities for intelligent automation and user support within the SharePoint environment.",
+          "Utilized Hugo (Markdown-based component framework) to efficiently build and manage static web pages, ensuring high performance and maintainability."
+        ]
+      },
+      {
+        "index": "03",
+        "company": "The Knowledge Academy",
+        "role": "User Experience Designer",
+        "dates": "August 2023 – June 2024",
+        "bullets": [
+          "Successfully designed, implemented, and delivered versions 1 through 4 of a comprehensive, human-centric Learning Management System (LMS) for B2B and B2C audiences globally.",
+          "Led the full UX lifecycle: gathered stakeholder requirements, defined strategic UX/UI specifications, created personas and user journey maps, and translated insights into detailed design documentation.",
+          "Acted as Design Lead — overseeing the design vision, mentoring on best practices, and providing direct front-end support to ensure seamless, high-quality implementation across all devices.",
+          "Delivered wireframes, interactive Figma prototypes, and production-ready design assets with thorough developer handoff documentation.",
+          "Ran iterative usability testing cycles and incorporated feedback loops to refine the product experience across each version release.",
+          "Ensured full responsive design coverage across desktop, tablet, and mobile, maintaining consistency with the established design system."
+        ]
+      },
+      {
+        "index": "04",
+        "company": "Skyvera LLC (formerly Sterlite Technologies) / STL Telecom",
+        "role": "Graduate Engineer Trainee – Backend Developer",
+        "dates": "July 2022 – July 2023",
+        "bullets": [
+          "Continued responsibilities seamlessly post-acquisition of Sterlite Technologies Ltd. by Skyvera LLC.",
+          "Successfully delivered the Go-Live project for MTN Sudan — a landmark digital transformation initiative.",
+          "Served as part of the CAL (Component Access Layer) team actively involved in the Go-Live project for MTN Sudan.",
+          "Worked with the CAL BSS product team prior to Go-Live; proficient in SpringBoot, API, Postman, and Kubernetes.",
+          "Followed Agile/Scrum processes with Jira, GitLab, and Git for version control and project management."
+        ]
+      },
+      {
+        "index": "05",
+        "company": "Advanced Business & Healthcare Solution",
+        "role": "Trainee Engineer – Full Stack Developer",
+        "dates": "February 2022 – June 2022",
+        "bullets": [
+          "Worked as part of the R&D team on the core product myWorkplace as a full-stack developer using the proprietary MosaicJS framework — similar to the MERN stack (MongoDB, ExpressJS, ReactJS, NodeJS).",
+          "Contributed to feature development and code reviews following Agile/Scrum practices with Jira and GitHub.",
+          "Performed API testing and integration using Postman; applied MVC model architecture and SonarQube for code quality assurance."
+        ]
+      },
+      {
+        "index": "06",
+        "company": "Tata Consultancy Services",
+        "role": "UI/UX Designer – Intern",
+        "dates": "May 2021 – July 2021",
+        "bullets": [
+          "Designed responsive UI components, screen layouts, and user flows for internal digital products using Figma, Adobe XD, and Miro.",
+          "Created wireframes and interactive prototypes aligned to user personas and product goals defined in collaboration with senior designers.",
+          "Applied UX principles including usability heuristics, accessibility standards, and visual hierarchy to produce polished, user-friendly interfaces.",
+          "Participated in design critique sessions, incorporating feedback to refine and iterate on interface designs before final handoff."
+        ]
+      }
+    ]
+  },
+
+  "skills": {
+    "eyebrow": "Capabilities",
+    "title": "What I bring to a team",
+    "note": "Design-systems depth backed by a year of hands-on backend and full-stack engineering — I know what's realistic to hand off.",
+    "groups": [
+      {
+        "title": "Design & Prototyping",
+        "items": ["Figma (Components, Variants, Auto Layout, Libraries)", "Adobe XD", "Framer", "Sketch", "Spline", "FigJam"]
+      },
+      {
+        "title": "UX Methods",
+        "items": ["Design Systems", "Accessibility (WCAG)", "Design QA", "Journey Mapping", "Persona Creation", "Usability Testing", "Information Architecture"]
+      },
+      {
+        "title": "Frontend (Handoff)",
+        "items": ["HTML5", "CSS3", "JavaScript", "ReactJS", "Tailwind CSS", "SharePoint / SPFx"]
+      },
+      {
+        "title": "AI Tools",
+        "items": ["Copilot Studio", "Copilot Agents", "Claude Design", "Claude AI", "ChatGPT", "Gemini", "MidJourney"]
+      },
+      {
+        "title": "Project & Dev Tools",
+        "items": ["Jira", "Git / GitHub", "Agile / Scrum", "Postman", "Google Analytics", "Draw.io"]
+      }
+    ]
+  },
+
+  "about": {
+    "eyebrow": "About",
+    "headline": "I design production-ready UI and the systems that keep it consistent — across markets, platforms, and teams.",
+    "paragraphs": [
+      "I'm a Google-certified Senior UX/UI Designer with 5+ years of experience designing meaningful digital products across EdTech, HealthTech, Telecom, and enterprise ecosystems. My approach combines user research, interaction design, usability principles, and scalable design systems to create experiences that are intuitive, accessible, and impactful.",
+      "With an engineering foundation in backend and full-stack development, I bring a unique perspective to product design by bridging the gap between user needs, business goals, and technical possibilities."
+    ],
+    "linkedin": "https://www.linkedin.com/in/jaydeep-das-61b5411a6/",
+    "linkedinLabel": "View LinkedIn Profile",
+    "badges": [
+      {
+        "name": "Google UX Design Professional Certificate",
+        "org": "Coursera",
+        "image": "/images/google-ux-design-professional-certificate.2.png",
+        "verifyUrl": "https://www.credly.com/badges/04006845-ca19-4e40-b32d-733ee2e256d3/public_url"
+      },
+      {
+        "name": "AI Skills Fest 2026",
+        "org": "Microsoft",
+        "image": "/images/ai-skills-fest-2026 (1).png",
+        "verifyUrl": "https://www.credly.com/badges/f33debe1-f2f5-432d-a5bd-fca49676001e/public_url"
+      },
+      {
+        "name": "Agents League - Creative Apps",
+        "org": "Github Copilot - Microsoft",
+        "image": "/images/ed3540d38a047c2f871a22a634e875ca8acaf7397e96ca90cf89264cad4728e5 (2) 1.png",
+        "verifyUrl": "https://globalai.community/badges/7bc46eaf-ab9c-4b11-8a3c-b3f6559824d8"
+      }
+    ],
+    "certifications": [
+      { "name": "Google UX Design Professional Certificate", "org": "Coursera", "id": "TNDAPJPNZSHX" },
+      { "name": "Digital Skills: User Experience", "org": "Accenture / FutureLearn", "id": "tmo7kpu" },
+      { "name": "Claude code 101", "org": "Anthropic", "id": "ipcpqjp547nx" },
+      { "name": "Claude 101", "org": "Anthropic", "id": "pvh7g7m426st" },
+      { "name": "Agent Commander", "org": "Founderz", "id": "bbf6e80b-21cc-4306-9aea-77d03d0de28c-b520f99f-8050-400f-8d54-bc5059bd2b25" }
+      
+    ],
+    "education": {
+      "degree": "B.Tech",
+      "detail": "Maulana Abul Kalam Azad University of Technology (MAKAUT), West Bengal · CGPA 8.99/10 · 2018–2022"
+    },
+    "portrait": "images/Frame 2147239045 (4).png"
+  },
+
+  "partners": {
+    "eyebrow": "Companies I've worked with",
+    "logos": [
+      { "image": "/images/Logo1.png", "alt": "Company logo 1" },
+      { "image": "/images/Logo2.png", "alt": "Company logo 2" },
+      { "image": "/images/Logo3.png", "alt": "Company logo 3" },
+      { "image": "/images/Logo4.png", "alt": "Company logo 4" },
+      { "image": "/images/Logo5.png", "alt": "Company logo 5" },
+      { "image": "/images/Logo6.png", "alt": "Company logo 6" },
+      { "image": "/images/Logo7.png", "alt": "Company logo 7" }
+    ]
+  },
+
+  "contact": {
+    "eyebrow": "Get in touch",
+    "heading": "Let's design something worth using.",
+    "email": "jaydeep.das@outlook.in",
+    "phone": "+91 7432803902",
+    "phoneHref": "+917432803902",
+    "location": "Bangalore, India",
+    "whatsappNumber": "917432803902",
+    "whatsappText": "Hi Jaydeep! I came across your portfolio and would love to connect about a full-time role.",
+    "emailSubject": "Full-time opportunity — Let's connect ✦",
+    "emailBody": "Hi Jaydeep,\n\nI came across your portfolio and was genuinely impressed by your UX/UI work — the craft and attention to detail really stood out.\n\nWe're hiring for a full-time role and I believe you could be a great fit. I'd love to connect and share more about the opportunity:\n\n• Role / Title:\n• Company:\n• Location / Work mode:\n• Expected start date:\n\nLooking forward to hearing from you.\n\nWarm regards,\n",
+    "socials": [
+      { "label": "LinkedIn", "href": "https://linkedin.com/in/jaydeep-das-61b5411a6" },
+      { "label": "Behance", "href": "https://behance.net/jaydeepdas2" },
+      { "label": "GitHub", "href": "https://github.com/JaydeepDas2000" }
+    ],
+    "copyright": "© 2026 Jaydeep Das. All rights reserved."
+  }
+}
