@@ -13,7 +13,7 @@
 
   "hero": {
     "eyebrow": "Senior UX/UI Designer — Bangalore, India",
-    "image": "/images/Frame 2147239044.png",
+    "image": "/images/hero.webp",
     "imageAlt": "Jaydeep Das",
     "nameLines": ["JAYDEEP", "DAS"],
     "descriptionParts": [
@@ -281,19 +281,19 @@
       "degree": "B.Tech",
       "detail": "Maulana Abul Kalam Azad University of Technology (MAKAUT), West Bengal · CGPA 8.99/10 · 2018–2022"
     },
-    "portrait": "images/Frame 2147239045 (4).png"
+    "portrait": "/images/about-portrait.webp"
   },
 
   "partners": {
     "eyebrow": "Companies I've worked with",
     "logos": [
-      { "image": "/images/Logo1.png", "alt": "Company logo 1" },
-      { "image": "/images/Logo2.png", "alt": "Company logo 2" },
-      { "image": "/images/Logo3.png", "alt": "Company logo 3" },
-      { "image": "/images/Logo4.png", "alt": "Company logo 4" },
-      { "image": "/images/Logo5.png", "alt": "Company logo 5" },
-      { "image": "/images/Logo6.png", "alt": "Company logo 6" },
-      { "image": "/images/Logo7.png", "alt": "Company logo 7" }
+      { "image": "/images/logo1.webp", "alt": "Company logo 1" },
+      { "image": "/images/logo2.webp", "alt": "Company logo 2" },
+      { "image": "/images/logo3.webp", "alt": "Company logo 3" },
+      { "image": "/images/logo4.webp", "alt": "Company logo 4" },
+      { "image": "/images/logo5.webp", "alt": "Company logo 5" },
+      { "image": "/images/logo6.webp", "alt": "Company logo 6" },
+      { "image": "/images/logo7.webp", "alt": "Company logo 7" }
     ]
   },
 
