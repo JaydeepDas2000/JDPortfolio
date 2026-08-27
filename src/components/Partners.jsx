@@ -15,6 +15,8 @@ export default function Partners({ partners }) {
               src={asset(logo.image)}
               alt={logo.alt || `Partner ${i + 1}`}
               className="partner-logo"
+              loading="lazy"
+              decoding="async"
               onError={(e) => {
                 e.currentTarget.style.display = "none";
               }}

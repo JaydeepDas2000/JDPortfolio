@@ -13,6 +13,7 @@ export default function Hero({ hero }) {
             <img
               src={asset(hero.image)}
               alt={hero.imageAlt || "Portrait"}
+              decoding="async"
               style={{
                 width: "100%",
                 height: "auto",

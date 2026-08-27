@@ -83,6 +83,8 @@ export default function About({ about }) {
                   <img
                     src={asset(b.image)}
                     alt={b.name}
+                    loading="lazy"
+                    decoding="async"
                     onError={(e) => {
                       e.currentTarget.style.display = "none";
                     }}
@@ -129,6 +131,8 @@ export default function About({ about }) {
               src={asset(about.portrait)}
               alt="Portrait"
               className="portrait-img"
+              loading="lazy"
+              decoding="async"
               style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
             />
           </div>
