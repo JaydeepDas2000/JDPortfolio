@@ -59,7 +59,7 @@ export default function About({ about }) {
               )}
 
               <a
-                href={asset("/Jaydeep_dasCV_ATS.pdf")}
+                href={asset("/Jaydeep_das-CV_ATS.pdf")}
                 download
                 className="link-btn cv-btn inline-flex items-center gap-2"
                 style={{
