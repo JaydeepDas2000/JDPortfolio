@@ -39,9 +39,22 @@
     "eyebrow": "Portfolio Projects",
     "title": "Case studies on Behance",
     "note": "Six case studies spanning fintech, e-commerce, wellness and EdTech. Full breakdowns and screens live on Behance.",
-    "projects": [
-      {
+    "projects": [{
         "index": "01",
+        "title": "LIT Club Ecosystem",
+        "category": "Brand System · Dashboard UX",
+        "year": "Behance",
+        "focus": [
+          "Identity and experience system for student clubs at LIT School, Bengaluru",
+          "Designed a discovery-to-first-event journey inside the existing student dashboard, with a one-tap join flow",
+          "Built a scalable club identity and reusable templates across campus banners, Instagram and WhatsApp"
+        ],
+        "tools": ["Figma", "UX Research", "Design Systems", "Brand Identity"],
+        "link": "https://www.behance.net/gallery/258937955/LIT-School-Club-Week",
+        "image": "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/86b5d4258937955.Y3JvcCwxMzg4LDEwODYsMzAsMA.png"
+      },
+      {
+        "index": "02",
         "title": "NIKE Shoes",
         "category": "E-commerce · Interaction Flow",
         "year": "Behance",
@@ -55,7 +68,7 @@
         "image": "https://mir-s3-cdn-cf.behance.net/projects/404/bcfe0d243692631.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png"
       },
       {
-        "index": "02",
+        "index": "03",
         "title": "BundleBee",
         "category": "Product Bundling Platform · UX/UI",
         "year": "Behance",
@@ -69,7 +82,7 @@
         "image": "https://mir-s3-cdn-cf.behance.net/projects/404/db3079238285247.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png"
       },
       {
-        "index": "03",
+        "index": "04",
         "title": "MindEase",
         "category": "Mind & Fitness App · UX/UI",
         "year": "Behance",
@@ -83,7 +96,7 @@
         "image": "https://mir-s3-cdn-cf.behance.net/projects/404/2af0ee237264355.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png"
       },
       {
-        "index": "04",
+        "index": "05",
         "title": "Stock Broker App",
         "category": "Fintech · Case Study",
         "year": "Behance",
@@ -97,7 +110,7 @@
         "image": "https://mir-s3-cdn-cf.behance.net/projects/404/487330235959837.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png"
       },
       {
-        "index": "05",
+        "index": "06",
         "title": "SkillSage",
         "category": "EdTech · Learning Platform",
         "year": "Behance",
@@ -111,7 +124,7 @@
         "image": "https://mir-s3-cdn-cf.behance.net/projects/404/ed2a0f182360303.Y3JvcCw1NTIzLDQzMjAsMTA4MCww.png"
       },
       {
-        "index": "06",
+        "index": "07",
         "title": "Movie Booking App",
         "category": "Ticketing · Booking Flow",
         "year": "Behance",
